@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="The SDK">
+      <UniqueIdentifier>{a1e1024f-a38f-41d2-a574-6c9ed40df206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateMove">
+      <UniqueIdentifier>{8bdf75fc-d628-4f35-8562-0ad55d60005b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="The Valve SDK">
+      <UniqueIdentifier>{d16d2e81-fdf3-47f3-b2ce-c2b8ba004b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="The Hook">
+      <UniqueIdentifier>{6bab2ebd-201f-4d22-ac7d-34da4c41c80c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shinitu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shinitu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>The SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>The SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>The SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>The SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCmd.h">
+      <Filter>CreateMove</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK.h">
+      <Filter>The Valve SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>The SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>The Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT.h">
+      <Filter>The Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoStrafe.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
